@@ -37,4 +37,14 @@ public void Logout()
 {
   FirebaseAuth.Instance.SignOut();
 }
+```<br />
+## `IFirebaseAuthentication` interface
+```
+public interface IFirebaseAuthentication
+{
+  Task<string> Login(string email, string password);
+  Task<string> Register(string email, string password);
+  void Logout();
+  bool IsUserLoggedIn();
+}
 ```
