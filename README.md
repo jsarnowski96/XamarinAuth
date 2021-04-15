@@ -9,7 +9,7 @@ Prototype of mobile application using Firebase as a user authentication mechanis
 - `FirebaseAuthentication.cs` - class containing methods responsible for performing async authentication tasks such as Login or Register
 - `ApplicationKillier` - class containing methods responsible for killing application process
 
-## FirebaseAuthentication methods
+## `FirebaseAuthentication` methods
 ### Login()
 ```
 public async Task<string> Login(string email, string password)
@@ -27,5 +27,13 @@ public async Task<string> Register(string email, string password)
   var user = await FirebaseAuth.Instance.CreateUserWithEmailAndPasswordAsync(email, password);
   var token = await user.User.GetIdToken(false).AsAsync<GetTokenResult>();
   return token.Token;
+}
+```
+
+### Logout()
+```
+public void Logout()
+{
+  FirebaseAuth.Instance.SignOut();
 }
 ```
