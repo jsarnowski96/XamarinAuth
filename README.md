@@ -37,7 +37,8 @@ public void Logout()
 {
   FirebaseAuth.Instance.SignOut();
 }
-```<br />
+```
+
 ## `IFirebaseAuthentication` interface
 ```
 public interface IFirebaseAuthentication
