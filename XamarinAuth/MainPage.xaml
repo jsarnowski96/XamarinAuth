@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinAuth.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="XamarinAuth" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Prototyp aplikacji autoryzacyjnej" TextDecorations="Underline" FontSize="Title" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+        <Label Text="Panel logowania" FontSize="Medium" HorizontalTextAlignment="Center" Margin="0, 0, 0, 20"/>
+        <Entry x:Name="email"
+                Placeholder="Adres email"
+                HeightRequest="50"
+                FontSize="16" />
+        <Entry x:Name="password"
+                IsPassword="True"
+                Placeholder="Hasło"
+                HeightRequest="50"
+                FontSize="16" />
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*">
+            <Button Text="Zaloguj" x:Name="loginButton"
+                    Clicked="OnLoginButtonClicked" />
+            <Button Grid.Column="1" Text="Zarejestruj" x:Name="registerButton"
+                    Clicked="OnRegisterButtonClicked" />
+            <Button Grid.Column="1" Text="Wyloguj" x:Name="logoutButton"
+                    IsVisible="False"
+                    Clicked="OnLogoutButtonClicked" />
+            <Button Grid.Row="1" Text="Wyjdź" x:Name="exitButton"
+                    Clicked="OnExitButtonClicked" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

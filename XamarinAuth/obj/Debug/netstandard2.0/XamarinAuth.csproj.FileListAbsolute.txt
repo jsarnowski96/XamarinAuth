@@ -1,0 +1,14 @@
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.AssemblyInfoInputs.cache
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.AssemblyInfo.cs
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.csproj.CoreCompileInputs.cache
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.dll
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\ref\XamarinAuth.dll
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.pdb
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\XamarinAuth.deps.json
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\XamarinAuth.dll
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\ref\XamarinAuth.dll
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\XamarinAuth.pdb
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.csprojAssemblyReference.cache
+D:\studia\zaliczenia\Semestr 6\Windows Phone\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamlC.stamp
